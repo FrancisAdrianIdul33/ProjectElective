@@ -18,9 +18,19 @@
  .card {
     margin: 15px;
     transition: transform 0.2s;
+    background: linear-gradient(to bottom, #2971f8, #ffffff);
   }
   
   .card:hover {
     transform: scale(1.05);
   }
+
+  .des-con {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+  }
+  
+  
  
