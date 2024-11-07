@@ -20,7 +20,14 @@
     transition: transform 0.2s;
     background: linear-gradient(to bottom, #2971f8, #ffffff);
   }
-  
+
+  .card h3 {
+    margin-left: 120px;
+    position: relative;
+    color: rgb(226, 224, 224);
+    text-shadow: 1px 1px 0 black;
+  }
+
   .card:hover {
     transform: scale(1.05);
   }
@@ -30,6 +37,10 @@
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 50px;
+  }
+
+  .des-con a {
+    margin-left: 120px;
   }
   
   
