@@ -1,47 +1,86 @@
  /* Carousel Style / Image Slideshow Crossfade Automatic */
 
  #carouselExampleFade {
-     width: 100%;
-     height: 500px;
-     overflow: hidden;
-     position: relative;
+   width: 100%;
+   height: 500px;
+   overflow: hidden;
+   position: relative;
  }
 
  .carousel-item img {
-     width: 100%;
-     height: 100%;
-     object-fit: cover;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
  }
 
- /*Placeholder*/
+ /*Placeholders for Destination*/
 
  .card {
-    margin: 15px;
-    transition: transform 0.2s;
-    background: linear-gradient(to bottom, #2971f8, #ffffff);
-  }
+   margin: 15px;
+   transition: transform 0.2s;
+   background: linear-gradient(to bottom, #2971f8, #ffffff);
+ }
 
-  .card h3 {
-    margin-left: 120px;
-    position: relative;
-    color: rgb(226, 224, 224);
-    text-shadow: 1px 1px 0 black;
-  }
+ .card h3 {
+   margin-left: 120px;
+   position: relative;
+   color: rgb(255, 255, 255);
+   text-shadow: 1px 1px 0 black;
 
-  .card:hover {
-    transform: scale(1.05);
-  }
+ }
 
-  .des-con {
-    margin-top: 50px;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 50px;
-  }
+ .card:hover {
+   transform: scale(1.05);
+ }
 
-  .des-con a {
-    margin-left: 120px;
-  }
-  
-  
+ .des-con {
+   margin-top: 50px;
+   margin-left: 30px;
+   margin-right: 30px;
+   margin-bottom: 50px;
+ }
+
+ .des-con a {
+   margin-left: 120px;
+ }
+
+ /*Placeholder for Blogs*/
+
+ .blog-card {
+  margin: 15px;
+  transition: transform 0.2s;
+  background: linear-gradient(to bottom, #2971f8, #ffffff);
+}
+
+.blog-card h5 {
+  margin-top: 5px;
+  margin-left: 10px;
+  position: relative;
+
+}
+
+.blog-card:hover {
+  transform: scale(1.05);
+}
+
+.blog-des-con {
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 10px;
  
+}
+
+.blog-des-con a {
+  margin-left: 120px;
+}
+
+img1 {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.img-size {
+  width: 200px;
+  height: 300px;
+}
