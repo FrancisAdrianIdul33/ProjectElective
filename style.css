@@ -50,11 +50,12 @@
   display: flex;
   justify-content: normal;
   margin: 20px;
-  margin-right: 5rem;
-  width: 100vw; /* Ensures the container takes full width */
+  margin-right: 0.5rem;
+  width:max-content; /* Ensures the container takes full width */
   height: 70vh; /* Fixed height for the container */
+  overflow-y: auto;
   overflow: hidden; /* Prevents overflow */
-  
+  flex-shrink: 0; /* Prevents scaling */
 }
 
 .blog-card {
@@ -64,8 +65,9 @@
   width: 361px; /* Fixed width */
   height: 440px; /* Fixed height */
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  margin-right: 2rem;
-  margin-left: 2rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  flex-shrink: 0; /* Prevents scaling */
 }
 
 .img-size {
@@ -98,3 +100,5 @@ p {
 .btn {
   margin-top: 10px;
 }
+
+/*
